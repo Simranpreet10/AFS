@@ -8,6 +8,7 @@ app.use("/api/blogs",require("./routers/blogRoute"))
 app.use("/api/auth",require("./routers/auth"))
 app.use("/api/like",require("./routers/like"))
 app.use("/api/dislike",require("./routers/dislike"))
+app.use("/verify",require("./routers/verify"))
 
 app.listen(4245,()=>{
     console.log("server started")
